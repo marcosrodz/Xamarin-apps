@@ -1,0 +1,18 @@
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="cotador.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Purple" Padding="24" CornerRadius="0">
+            <Label Text="O Cotador" HorizontalTextAlignment="Center" TextColor="White" FontSize="50" FontAttributes="Bold"/>
+        </Frame>
+        <StackLayout Margin="10">
+
+            <Button Text="Dollar" x:Name="btDollar" BackgroundColor="Purple" TextColor="White"/>
+            <Button Text="Libra" x:Name="btLibra" BackgroundColor="Purple" TextColor="White"/>
+            <Button Text="Euro" x:Name="btEuro" BackgroundColor="Purple" TextColor="White"/>
+
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
